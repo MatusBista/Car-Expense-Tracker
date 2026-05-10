@@ -4,6 +4,8 @@ A simple web application for tracking car-related expenses such as fuel, mainten
 
 Built with pure PHP (no frameworks) and MySQL as a school project.
 
+Project is currently LIVE at tracker123456.kesug.com
+
 ## Features
 
 - User registration and login
