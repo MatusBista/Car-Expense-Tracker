@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #222;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #1e1e2f;
+    color: #fff;
+    padding: 16px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.logo {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.user {
+    margin-left: 16px;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+main {
+    padding: 30px 20px;
+    min-height: 70vh;
+}
+
+footer {
+    background: #1e1e2f;
+    color: #aaa;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+h1, h2, h3 {
+    color: #1e1e2f;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #3a86ff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    margin-right: 4px;
+}
+
+.btn:hover {
+    background: #2a6fd6;
+}
+
+.btn-secondary {
+    background: #6c757d;
+}
+
+.btn-danger {
+    background: #d9534f;
+}
+
+.btn-danger:hover {
+    background: #b33d39;
+}
+
+form label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.form-box {
+    background: #fff;
+    padding: 24px;
+    border-radius: 6px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    background: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+.form-grid .full {
+    grid-column: 1 / -1;
+}
+
+.form-actions {
+    grid-column: 1 / -1;
+}
+
+.inline-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+    align-items: end;
+}
+
+.inline-form input,
+.inline-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.alert {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.alert-error {
+    background: #fde2e1;
+    color: #a02622;
+}
+
+.alert-success {
+    background: #dff5e1;
+    color: #2a7a3a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
+}
+
+table th {
+    background: #f0f0f5;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.card .big {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0;
+    color: #3a86ff;
+}
